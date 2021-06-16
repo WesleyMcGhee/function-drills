@@ -196,6 +196,7 @@ function theEliminator (contestants, loser){
   }
   return contestants
 }
+
 console.log(theEliminator(contestants, loser));
 console.log('-----')
 ////////////////// PROBLEM 11 ////////////////////
@@ -218,7 +219,7 @@ console.log('-----')
 
 //CODE HERE
 function chocolateFrogBot(gold){
-  return gold / 3
+  return Math.floor(gold / 3)
 }
 console.log(chocolateFrogBot(4));
 
